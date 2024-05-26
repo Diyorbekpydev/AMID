@@ -1,0 +1,604 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.nav{
+  display: flex;
+  margin-left: 50px ;
+
+}
+
+.nav img{
+  margin-left: 182px;
+  margin-top: 42px;
+}
+.nav ul{
+  display: flex;
+  margin-left: 300px;
+}
+.nav ul li{
+  list-style: none;
+  /* margin-left: 20px; */
+  padding-top: 50px;  
+}
+
+.nav ul li a{
+  margin-left: 50px;
+ 
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: Roboto;
+}
+
+li{
+  list-style: none;
+  justify-content: center;
+  
+}
+
+
+.nav button{
+  background-color: #124F48;
+  color: white;
+  width: 127px;
+  height: 57px;
+  border-radius: 31.5px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+
+/* _______________________________ */
+.initial{
+  width: 1319px;
+  height: 724px;
+  background-color: #E9FBF9;
+  margin-left: 120px;
+  margin-top: 50px;
+  border-radius: 30px;
+
+}
+
+
+#works{
+  width: 117px;
+  height: 38px;
+  background-color: e9fbf973;
+  align-items: center;
+  color: #FF6107;
+  text-align: center;
+  padding-top: 15px;
+ 
+
+  
+}
+
+
+.box-left{
+  margin-left: 100px;
+  padding-top: 50px;
+}
+
+.box-left h1{
+  width: 570px;
+  height: 251px;
+  font-size: 64px;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 80px;
+  margin-top:10px ;
+  color: #021D1A;
+
+}
+
+
+.text-mini{
+  width: 428px;
+  height: 90px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+
+}
+
+.box-left button{
+  background-color: #FF823B;
+  color: white;
+  width: 200px;
+  height: 57px;
+  border-radius: 31.5px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+}
+
+.box-right{
+  justify-content: space-between;
+}
+
+.box-right img{
+  margin-left: 500px;
+  margin-top: -549px;
+}
+
+/* _____________________________ */
+
+
+aside{
+  margin-top: 150px;
+}
+.reklama{
+  margin-top: 50px;
+}
+
+
+.brends ul{
+  display: flex;
+  margin-left: 50px;
+}
+
+.brends ul li{
+  width: 255px;
+  height: 103px;
+  border-radius: 10px;
+  background-color: #F1FAF9;
+  margin-left: 70px;
+  padding-left: 23px;
+}
+
+#reklama li img{
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+
+/* ____________________________ */
+
+.bussines{
+  width: 1111px;
+  height: 627px;
+  margin-left: 100px;
+  margin-top: 200px;
+} 
+
+
+
+.text-es h1{
+  width: 534px;
+  height: 154px;
+  font-size: 44px;
+  font-family: Poppins;
+  line-height: 80px;
+  margin-left: 20px;
+
+}
+
+#works{
+  border-color: #124F48;
+}
+
+.lorem{
+  width: 428px;
+  height: 90px;
+  color: #464646;
+  font-size: 18px;
+  font-family: Roboto;
+  line-height: 30px;
+  font-weight: 400;
+  margin-left: 809px;
+  margin-top: -140px;
+}
+
+
+
+.cards {
+  margin-top: 100px;
+  padding-left: 40px;
+  display: flex;
+  width: 1111px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+.card{
+  width: 364px;
+  height: 415px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.card h2{
+  margin-top: 10px;
+  font-family: Roboto;
+}
+
+#loremw{
+  width: 350px;
+  height: 81px;
+  line-height: 36px;
+  color: #464646;
+  font-weight: 400;
+  font-family:Open Sans;
+}
+
+#back-skripka{
+  width: 80px;
+  height: 80px;
+  background-color: #FFF7CA;
+  border-radius: 20px;
+  
+}
+#back-icon{
+  width: 80px;
+  height: 80px;
+  background-color: #DBFFE9;
+  border-radius: 20px;
+}
+
+#back-grafik{
+  width: 80px;
+  height: 80px;
+  background-color: #FFE9E0;
+  border-radius: 20px;
+
+}
+
+#skripka{
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+#grafik{
+  margin-left: 25px;
+  margin-top: 25px;
+  
+}
+#back-icon img{
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.card button{
+  background-color: #FF823B;
+  color: white;
+  width: 203px;
+  height: 57px;
+  border-radius: 31.5px;
+  border: none;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 0px;
+
+}
+
+
+
+
+/* _________________________________________ */
+
+.text-es1{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.text-es1 h1{
+  width: 540px;
+  height: 154px;
+  font-family: Poppins;
+  font-size: 44px;
+  line-height: 80px;
+  font-weight: 700;
+
+}
+
+
+
+.pic{
+  display:grid;
+  margin-left: 800px;
+  margin-top: -100px;
+}
+
+
+
+
+.jobhub{
+  margin-top: -50px;
+}
+
+#img1{
+  margin-top: -70px;
+  margin-left: 100px;
+}
+
+.left_itms h3{
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 28.13px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 10px;
+
+}
+
+.left_itms p{
+  width: 511px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #464646;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+.btn{
+  background-color: #FF823B;
+  color: white;
+  width: 203px;
+  height: 57px;
+  border-radius: 31.5px;
+  border: none;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 100px; 
+}
+
+#img2{
+  margin-left: 800px;
+  margin-top: -650px;
+}
+
+/* _____________________- */
+
+.blog{
+  margin-top: 40px;
+}
+
+.blog .blog_p{
+  text-align: center;
+  color: #FF6107;
+  font-size: 16px;
+  font-family: Roboto;
+
+}
+
+.blog h1{
+  font-size: 44px;
+  font-family: Poppins;
+  font-weight: 700;
+  text-align: center;
+
+
+}
+
+.blog .blog_text{
+  width: 662px;
+  height: 60px;
+  font-size: 18px;
+  font-family: Roboto;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 430px;
+  margin-top: 10px;
+
+}
+
+
+
+.cards-two{
+  margin-top: 100px;
+}
+.card_one{
+  margin-left: 100px;
+}
+
+
+.card_one img{
+  width: 460px;
+  height: 299.96px;
+
+}
+
+
+.card_one h3{
+  font-size: 24px;
+  line-height: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-top: 20px;
+
+
+}
+
+.card_one p{
+  width: 496px;
+  height: 90px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+
+}
+
+.card_one a{
+  background-color: #FF823B;
+  color: white;
+  padding:15px 25px;
+  border-radius: 31.5px;
+  border: none;
+  font-size: 18px;
+  margin-top: 500px; 
+  text-align: center;
+
+}
+
+
+
+
+
+
+.card_two{
+  margin-left: 800px;
+  margin-top: -520px;
+}
+
+
+.card_two img{
+  width: 460px;
+  height: 299.96px;
+
+}
+
+
+.card_two h3{
+  font-size: 24px;
+  line-height: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-top: 20px;
+
+
+}
+
+.card_two p{
+  width: 496px;
+  height: 90px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+
+}
+
+.card_two a{
+
+  color: black;
+  border-radius: 31.5px;
+  border: none;
+  font-size: 18px;
+  margin-top: 500px; 
+
+
+}
+
+
+/* ______________________ */
+
+footer {
+ 
+  width: 1520px;
+  height: 500px;
+  background-color: #E9FBF9;
+  text-align: center;  
+  margin-top:100px ;
+
+}
+
+footer h1{
+  width: 637px;
+  height: 132px;
+  font-size: 44px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: center;  
+  margin-left: 400px;
+  padding-top: 50px;
+}
+
+.Subscribe{
+  width: auto;
+  display: flex;
+  padding-left: 500px;
+}
+
+footer .Subscribe p{
+  color: #FF6107;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding-right: 20px;
+  
+
+}
+
+footer .Subscribe a{
+  background-color: #FF823B;
+  color: white;
+  padding:15px 25px;
+  border-radius: 31.5px;
+  border: none;
+  font-size: 18px;
+
+
+}
+
+
+.nav p{
+  width: 130px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+footer .nav{
+  margin-top: 100px;
+}
+
+#Terms{
+  color: #FF6107;
+}
+
+
+.footer_end{
+  width: 1520px;
+  height: 60px;
+  background-color: #124F48;
+  display: flex;
+  color: white;
+  margin-top: 50px;
+
+}
+
+.footer_end p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: Poppins;
+  margin-left: 165px;
+  padding-top: 18px;
+
+
+}
+
+
+.footer_end img {
+  width: 210px;
+  height: 18px;
+  margin-left: 600px;
+  margin-top: 18px;
+}
